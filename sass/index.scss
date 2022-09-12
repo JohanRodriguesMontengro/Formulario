@@ -42,7 +42,11 @@ body {
         -ms-transition: 900ms;
         -o-transition: 900ms;
         text-decoration: overline;
-}
+    }
+
+    h1 {
+        margin-bottom: 20px;
+    }
     .master-div-style {
         margin: auto;
         width: 900px;

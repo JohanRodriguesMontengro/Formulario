@@ -41,6 +41,9 @@ body h2:hover {
   -o-transition: 900ms;
   text-decoration: overline;
 }
+body h1 {
+  margin-bottom: 20px;
+}
 body .master-div-style {
   margin: auto;
   width: 900px;
