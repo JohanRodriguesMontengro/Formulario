@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond:regular,500,600,700,800,italic,500italic,600italic,700italic,800italic" rel="stylesheet" />
+    <link rel="stylesheet" href="../sass/index.css">
+  </head>
+  <body>
+    <h1>Questionário sobre você</h1>
+
+    <div class="master-div-style">
+        <form>
+            <h2>1. Informe seu nome:</h2>
+            <label for="fname">Primeiro Nome:</label><br />
+            <input type="text" id="fname" name="fname" placeholder="John" required/>
+            <br />
+            <label for="lname">Sobrenome:</label><br />
+            <input type="text" id="lname" name="lname" placeholder="Doe" required/>
+            <br />
+            <br />
+            <hr />
+      
+            <h2>2. Qual a sua idade?:</h2>
+            <label for="quantity">Digite entre (1 e 122)</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="122" required />
+      
+            <hr />
+            <h2>3. Informe seu gênero:</h2>
+            <input type="radio" id="html" name="fav_language" value="HTML" />
+            <label for="html">Homem</label><br />
+            <input type="radio" id="css" name="fav_language" value="CSS" />
+            <label for="css">Mulher</label><br />
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript" />
+            <label for="javascript">Prefiro não dizer</label>
+      
+            <hr />
+            <h2>4. Informe qual ou quais veículos o senhor tem: (Opcional)</h2>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+            <label for="vehicle1">Bicicleta</label><br />
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
+            <label for="vehicle2">Carro</label><br />
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
+            <label for="vehicle3">Ônibus</label><br />
+            <input type="checkbox" id="vehicle4" name="vehicle3" value="Boat" />
+            <label for="vehicle4">Moto</label><br />
+            <hr />
+      
+            <h2>5. Qual é a data do seu aniversario?:</h2>
+            <label for="birthday">Aniversario:</label>
+            <input type="date" id="birthday" name="birthday" required />
+            <hr />
+      
+            <h2>6. Qual o seu email?:</h2>
+            <label for="email">Digite seu email:</label>
+            <input type="email" id="email" name="email" />
+            <hr />
+      
+            <h2>7. Em uma escala de (1 a 10) como foi seu dia?:</h2>
+            <label for="vol"></label>
+            <input type="range" id="vol" name="vol" min="0" max="10" required />
+            <hr />
+      
+            <h2>8. Digite seu número de telefone:</h2>
+            <label for="phone">Enter a phone number:</label><br /><br />
+            <input type="tel" id="phone" name="phone" placeholder="74-99974-9678" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}" required/>
+            <br />
+            <br />
+            <small>Celular: 74-99974-9678</small>
+            <br />
+            <br />
+            <hr />
+      
+            <h2>9. Em uma escala de 1 a 10, qual foi a nota desse formulário</h2>
+            <select name="select" required>
+              <option value="valor1">Nota 1</option>
+              <option value="valor2">Nota 2</option>
+              <option value="valor3">Nota 3</option>
+              <option value="valor4">Nota 4</option>
+              <option value="valor5">Nota 5</option>
+              <option value="valor6">Nota 6</option>
+              <option value="valor7">Nota 7</option>
+              <option value="valor8">Nota 8</option>
+              <option value="valor9">Nota 9</option>
+              <option value="valor10" selected>Nota 10</option>
+            </select>
+            <hr />
+      
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Cancelar" />
+          </form>
+    </div>
+    
+  </body>
+</html>

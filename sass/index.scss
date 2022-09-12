@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #a9d7e9;
+
+    form {
+        margin-left: 100px;
+        margin-right: 100px;
+        color: #f3f3f3;
+    }
+
+    label {
+        font-size: 22px;
+        color: rgb(77, 76, 76);
+        font-family: 'Eb Garamond';
+    }
+    label:hover {
+        color: rgb(0, 0, 0);
+        transition: 900ms;
+        -webkit-transition: 900ms;
+        -moz-transition: 900ms;
+        -ms-transition: 900ms;
+        -o-transition: 900ms;
+    }
+
+    hr {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    h2 {
+        color: rgb(0, 0, 0);
+        font-family: 'Roboto';
+    }
+    h2:hover {
+        color: rgb(77, 76, 76);
+        transition: 900ms;
+        -webkit-transition: 900ms;
+        -moz-transition: 900ms;
+        -ms-transition: 900ms;
+        -o-transition: 900ms;
+        text-decoration: overline;
+}
+    .master-div-style {
+        margin: auto;
+        width: 900px;
+        background-color: #f3f3f3;
+        border-radius: 10px;
+        padding: 20px 10px 10px 10px;
+      }
+}
