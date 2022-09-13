@@ -3,18 +3,19 @@
     margin: 0;
 }
 body {
-    background-color: #a9d7e9;
+    margin-top: 50px;
 
     form {
         margin-left: 100px;
         margin-right: 100px;
+        margin-top: 10px;
         color: #f3f3f3;
     }
 
     label {
         font-size: 22px;
-        color: rgb(77, 76, 76);
-        font-family: 'Eb Garamond';
+        color: rgb(134, 134, 134);
+        font-family: 'EB Garamond';
     }
     label:hover {
         color: rgb(0, 0, 0);
@@ -41,7 +42,6 @@ body {
         -moz-transition: 900ms;
         -ms-transition: 900ms;
         -o-transition: 900ms;
-        text-decoration: overline;
     }
 
     h1 {
