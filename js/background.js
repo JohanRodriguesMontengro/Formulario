@@ -1,3 +1,5 @@
+/* Código feito por leimapapa
+Disponivel no CodePen "https://codepen.io/leimapapa/pen/OJZRWpr?editors=0010"*/
 function rain(el = document.body, params) {
   if (!el) {
     console.error("Must have element to populate the rain!");
@@ -105,3 +107,5 @@ function rain(el = document.body, params) {
 
 window.onload = rain(document.body);
 window.onresize = rain;
+/* Código feito por leimapapa
+Disponivel no CodePen "https://codepen.io/leimapapa/pen/OJZRWpr?editors=0010"*/
