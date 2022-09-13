@@ -1,3 +1,24 @@
+html {
+  height: 100%;
+  background: linear-gradient(rgba(82, 255, 2, 0.336), rgba(179, 255, 2, 0.384), rgba(137, 255, 2, 0.37));
+  background-size: 0.1rem 400%;
+  animation: bg 6s infinite;
+}
+html body {
+  height: 100%;
+}
+@keyframes bg {
+  5% {
+    background-position: 0 0;
+  }
+  55% {
+    background-position: 0 225%;
+  }
+  100% {
+    background-position: 0 425%;
+  }
+}
+
 * {
   padding: 0;
   margin: 0;
