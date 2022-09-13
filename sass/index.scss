@@ -10,21 +10,23 @@ body {
         margin-right: 100px;
         margin-top: 10px;
         color: #f3f3f3;
+        
     }
 
     label {
         font-size: 22px;
-        color: rgb(134, 134, 134);
+        color: white;
         font-family: 'EB Garamond';
     }
     label:hover {
         color: rgb(0, 0, 0);
-        transition: 900ms;
-        -webkit-transition: 900ms;
-        -moz-transition: 900ms;
-        -ms-transition: 900ms;
-        -o-transition: 900ms;
-    }
+        transition: 700ms;
+        -webkit-transition: 700ms;
+        -moz-transition: 700ms;
+        -ms-transition: 700ms;
+        -o-transition: 700ms;
+        text-decoration: wavy;
+}
 
     hr {
         margin-top: 30px;
@@ -36,13 +38,13 @@ body {
         font-family: 'Roboto';
     }
     h2:hover {
-        color: rgb(77, 76, 76);
-        transition: 900ms;
-        -webkit-transition: 900ms;
-        -moz-transition: 900ms;
-        -ms-transition: 900ms;
-        -o-transition: 900ms;
-    }
+        color: rgb(255, 255, 255);
+        transition: 700ms;
+        -webkit-transition: 700ms;
+        -moz-transition: 700ms;
+        -ms-transition: 700ms;
+        -o-transition: 700ms;
+}
 
     h1 {
         margin-bottom: 20px;
@@ -50,8 +52,9 @@ body {
     .master-div-style {
         margin: auto;
         width: 900px;
-        background-color: #f3f3f3;
+        background-color: #00ccff46;
         border-radius: 10px;
         padding: 20px 10px 10px 10px;
+        border: 2px solid black;
       }
 }
